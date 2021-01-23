@@ -14,6 +14,13 @@
   <!-- 默认抽屉栏在左侧 -->
   <div class="mdui-drawer">
     ... drawer content ...
+<body class="mdui-drawer-body-right">
+
+  <button class="mdui-btn" mdui-drawer="{target: '#left-drawer'}">open left drawer</button>
+
+  <div class="mdui-drawer" id="left-drawer">
+    ... left drawer content ...
+    <button class="mdui-btn" mdui-drawer-close>close</button>
   </div>
 <center>
 <h1>John Andrew</h1>
